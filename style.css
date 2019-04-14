@@ -1,0 +1,44 @@
+.container {
+    background-color:#fdde7e;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 15px;
+    margin:auto;
+    max-width: 1200px;
+    align-items:center;}
+.card {
+    margin: 0px 15px;
+    width:30%;
+    padding-top:42px;
+    padding-bottom:36px;
+    text-align:center;
+    background-color:#FFFFFF}
+.active{
+    padding-top:52px;
+    padding-bottom:55px;}
+.active .card-price {
+    margin-bottom: 43px;}
+.card-price {
+    color:#02995b;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:70px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    display: block;
+    margin-bottom:23px;}
+.car-img{
+    display: inline-block;}
+.card-title{
+    margin-top:38px;
+    margin-bottom:30px;
+    color:#333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:56px;
+    font-weight:400}
+.card-text{
+    font-family:"Lato Light,sans-serif";
+    font-size:18px;
+    font-weight:400;
+    letter-spacing: 0.5px;
+    max-width: 134px;
+    margin: 0 auto;}
